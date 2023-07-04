@@ -1,0 +1,11 @@
+.cell {
+    padding: 5px;
+    background-color: rgb(44, 121, 172);
+    border-radius: 1rem;
+    color: white;
+    width: 6rem;
+    margin: 2rem;
+}
+#students{
+    margin: 1rem;
+}
