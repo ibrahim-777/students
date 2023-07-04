@@ -1,14 +1,59 @@
 .cell {
     padding: 5px;
-    background-color: rgb(44, 121, 172);
-    border-radius: 1rem;
+    background-color: rgb(79, 79, 197);
+    border-radius: 15px;
     color: white;
-    width: 6rem;
-    margin: 2rem;
+    width: 10rem;
+    height: 2.4rem;
+    font-size: 1.3rem;
+}
+.head{
+    background-color: rgb(44, 121, 172);
+    text-transform:uppercase
 }
 #students{
-    margin: 1rem;
+    margin: auto;
+    text-align: center;
+    border-spacing: 1rem 1rem;
 }
 body{
-    background-color: rgb(22, 22, 87);
+    background: rgb(22,17,98);
+    background: linear-gradient(45deg, rgba(22,17,98,1) 30%, rgba(9,9,121,1) 72%);
+}
+button{
+    width:10rem;
+    height: 4rem;
+    font-size: 1.3rem;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    margin: 2rem 0 2rem 2rem;
+    text-align: center;
+    background-color: rgb(41, 41, 153);
+}
+@media (max-width:500px) {
+    .cell {
+        padding: 0;
+        background-color: rgba(255, 255, 255, 0.945);
+        border-radius: 0;
+        border: none;
+        border-bottom: 0.3px solid black ;
+        color: rgba(0, 0, 0, 0.897);
+        width: 7rem;
+        height: 1.5rem;
+        font-size: 0.6rem;
+    }
+    .head{
+        background-color: rgb(44, 121, 172);
+        text-transform:uppercase;
+        color: aliceblue;
+    }
+
+    #students{
+
+        border-spacing: 0;
+    }
+    button{
+        margin-left: 7rem;
+    }
 }

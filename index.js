@@ -7,7 +7,7 @@ function GetAllStudents()
         let students = document.getElementById('students');
         json.forEach(s => {
             let student = document.createElement('tr');
-            student.innerHTML = `
+            student.innerHTML += `
             <th class="cell">${s.id}</th>
             <th class="cell">${s.name}</th>
             <th class="cell">${s.phone}</th>
