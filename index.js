@@ -1,7 +1,7 @@
 function GetAllStudents()
 {
 
-    fetch('https://ibrahim-test-012.onrender.com')
+    fetch('https://ibrahim-test-012.onrender.com/getAllStudents')
       .then(response => response.json())
       .then(json => {
         let students = document.getElementById('students');
